@@ -16,7 +16,6 @@ class ReviewViewSet(viewsets.ModelViewSet):
         title_id = self.kwargs.get('title_id')
         title = get_object_or_404(Title, id=title_id)
         return title.reviews.filter(title=title_id)
-        
 
     def perform_create(self, serializer):
         title_id = self.kwargs.get('title_id')
@@ -36,7 +35,6 @@ class CommentViewSet(viewsets.ModelViewSet):
         title_id = self.kwargs.get('title_id')
         review = get_object_or_404(Review, id=review_id, title=title_id)
         return review.comments.all()
-        
 
     def perform_create(self, serializer):
         review_id = self.kwargs.get('review_id')
