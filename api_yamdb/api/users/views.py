@@ -84,3 +84,4 @@ class UserViewSet(viewsets.ModelViewSet):
                 role = self.request.user.role
             serializer.save(role=role)
             return Response(serializer.data, status.HTTP_200_OK)
+        return None

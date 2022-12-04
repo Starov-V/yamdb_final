@@ -20,7 +20,4 @@ def send_code(email):
 
 def get_tokens_for_user(user):
     refresh = RefreshToken.for_user(user)
-    tokens = {
-        'token': str(refresh.access_token),
-    }
-    return tokens
+    return {'token': str(refresh.access_token), }
