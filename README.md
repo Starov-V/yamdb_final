@@ -1,4 +1,4 @@
-![Workflow status](https://github.com/Starov-V/yamdb_final/actions/workflows/main.yml/badge.svg)
+![Workflow status](https://github.com/Starov-V/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # Api_yamdb
 ##### Description
 Main function of api_yamdb is adding reviews of works. Works have some properties, like genre. Also api_yamdb has system of comments, which users can add to any review. In Yamdb`s community you should be polite.
@@ -71,4 +71,4 @@ DB_PORT=<port to connect to the database>
 
 ```delete``` /titles/{titles_id}/ - delete work
 # Some words from author
-This is last work before my graduated work. README file today is props. You can look on the top of file that`s all.
+This is last work before my graduated work. README file today is props. You can look on the top of file. That`s all.
