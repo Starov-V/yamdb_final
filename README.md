@@ -27,48 +27,49 @@ DB_PORT=<port to connect to the database>
 ```get``` /titles/ - get all works
 ```
 {
-"count": 0,
-"next": "string",
-"previous": "string",
-"results": []
+    "count": 0,
+    "next": "string",
+    "previous": "string",
+    "results": []
 }
 ```
 
 ```post``` /titles/ - add work
 ```
 {
-"name": "string",
-"year": 0,
-"description": "string",
-"genre": [],
-"category": "string"
+    "name": "string",
+    "year": 0,
+    "description": "string",
+    "genre": [],
+    "category": "string"
 }
 ```
 
 ```get``` /titles/{titles_id}/ - get advanced info about work
 ```
 {
-"id": 0,
-"name": "string",
-"year": 0,
-"rating": 0,
-"description": "string",
-"genre": [],
-"category": {}
+    "id": 0,
+    "name": "string",
+    "year": 0,
+    "rating": 0,
+    "description": "string",
+    "genre": [],
+    "category": {}
 }
 ```
 
 ```patch``` /titles/{titles_id}/ - partial updating of information about the work
 ```
 {
-"name": "string",
-"year": 0,
-"description": "string",
-"genre": [],
-"category": "string"
+    "name": "string",
+    "year": 0,
+    "description": "string",
+    "genre": [],
+    "category": "string"
 }
 ```
 
 ```delete``` /titles/{titles_id}/ - delete work
 # Some words from author
 This is last work before my graduated work. README file today is props. You can look on the top of file. That`s all)
+PS: 158.160.20.96:5000
