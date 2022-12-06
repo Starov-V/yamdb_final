@@ -2,6 +2,12 @@
 # Api_yamdb
 ##### Description
 Main function of api_yamdb is adding reviews of works. Works have some properties, like genre. Also api_yamdb has system of comments, which users can add to any review. In Yamdb`s community you should be polite.
+
+# Tech
+1. Python 3.7
+2. Django
+3. nginx
+
 # .env file
 ```
 DB_ENGINE=<specify your DBMS>
